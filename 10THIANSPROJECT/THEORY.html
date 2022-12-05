@@ -1,0 +1,70 @@
+<html><head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Web Template</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="theory.css"/>
+</head>
+<body>
+ 
+   <div class="wrapper">
+<!--NAVIGATION-->
+       <nav>
+        <a href="https://freeimage.host/"><img src="https://iili.io/HBrKxAx.png" alt="HBrKxAx.png" style="width:6%;" /></a>
+          <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">PARTNERS</a></li>
+              <li><a href="#">CONTACT</a></li>
+          </ul>
+       </nav>
+       <h1>
+        Transposition Cipher
+    </h1>
+    <p style="font-size:25px ;">
+
+        In cryptography, a transposition cipher is a method of encryption by which the positions held by units of plaintext (which are commonly characters or groups of characters) are shifted according to a regular system, so that the cipher text constitutes a permutation of the plaintext. That is, the order of the units is changed (the plaintext is reordered). Mathematically a bi-jective function is used on the characters’ positions to encrypt and an inverse function to decrypt.</p>
+        <p style="font-size:25px ;">
+        More recent transposition ciphers combine the 2 approaches, keyed and keyless transposition ciphers to achieve 3 steps. First, the text is written into a table row by row . Second, the permutation is done by by reordering the columns. Third, new table is read column by column. The first and third steps provide a keyless global reordering, the second provides a blockwise keyed reordering. these types of ciphers are often referred to as keyed columnar transposition cipher or just columnar ciphers.<br>The first table is created by Alice writing the plain text row by row . The column are permuted using the same key as in the previous example. The cipher text is created by reading the second table column by column. Bob does the same 3 steps in reverse order. He writes the cipher text column by column. into the first atble, permutes the columns , then reads the second table row by row.</p>
+        <!--<p> given plaintext is- “prob hatd euri goth erek”. And lets the key is=3201. Then the cipher text will be-(Here I assumed starting from 0)</p>
+    
+        <pre><code>Example:
+          
+        
+        Plain Text  :  p r o b   h a t d   e u r i   g o t h   e r e k 
+        key:           3 2 0 1   3 2 0 1   3 2 0 1   3 2 0 1   3 2 0 1
+    
+
+        Encryption
+        -------
+        cipher Text :  o b r p   t d a h   r i u e   t h o g   e k r e 
+        Positions   :  0 1 2 3   0 1 2 3   0 1 2 3   0 1 2 3   0 1 2 3  
+        Key         :  3 2 0 1   3 2 0 1   3 2 0 1   3 2 0 1   3 2 0 1  
+    
+        Decryption
+        ---------
+        Plain Text  :  p r o b   h a t d   e u r i   g o t h   e r e k
+        
+    </code></pre>
+       <p> Here for encryption p is placed at 3th position, r is at 2nd, o is at 0th and b is at 1 to get the cipher text from the given key. And for the next words the same is applied. For decryption p is placed at 0th position, r is placed at 1st, b is placed at 3rd and o is placed at 2nd. The same is applied for the next.</p>
+    <p>The keyless ciphers permute the characters by using writing plaintext in one way and reading it in another way. The permutation is done on the whole plaintext to create the whole ciphertext.</p>
+    <p>The cipher text is created reading the pattern row by row . For example , to send the message Meet me at the park" to Bob Alice writes </p>
+     
+    <pre><code>
+        m       e        m        a      t        e        a      k
+                                                      
+            e        t        e       t       h        p       r
+
+            Cipher Text :  memateaketethpr
+                                                              
+            </code></pre>
+            </div>-->
+       <div class="sidebar"> 
+        <a href="AIM.html"><i class="fas fa-desktop"></i><span>AIM</span></a> 
+       <a href="THEORY.html"><i class="fas fa-cogs"></i><span>THEORY</span></a> 
+       <a href="PROCEDURE.html"><i class="fas fa-th"></i><span>PROCEDURE</span></a> 
+       <a href="SIMULATION.html"><i class="fas fa-th"></i><span>SIMULATION</span></a>  
+       <a href="cryptanalysis.html"><i class="fas fa-th"></i><span>CRYPTANALYSIS</span></a>
+       <a href="REFERENCE.html"><i class="fas fa-th"></i><span>REFERENCE</span></a>
+   </div>
+   
+</body></html>
